@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Guide</title>
+<link rel="stylesheet" href="https://serverx.imfast.io/css/whm/bootstrap.css">
+<link rel="stylesheet" href="https://serverx.imfast.io/css/whm/info.css">
+<link id="favicon" rel="shortcut icon" type="image/png" href="data:image/png;base64,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">
+</head>
+<body>
+<div class="container text-center">
+<input type="radio" name="dradio" id="dnews" class="ncb" data-com.bitwarden.browser.user-edited="yes">
+<input type="radio" name="dradio" id="dabout" class="ncb" data-com.bitwarden.browser.user-edited="yes">
+<input type="radio" name="dradio" id="dsecurity" class="ncb" data-com.bitwarden.browser.user-edited="yes">
+<input type="radio" name="dradio" id="dbuyer_guide" class="ncb" data-com.bitwarden.browser.user-edited="yes">
+<input type="radio" name="dradio" id="dvendor_guide" class="ncb" data-com.bitwarden.browser.user-edited="yes" checked="checked">
+<input type="radio" name="dradio" id="dpayments" class="ncb">
+<input type="radio" name="dradio" id="drules" class="ncb">
+<input type="radio" name="dradio" id="dbugbounty" class="ncb">
+<input type="radio" name="dradio" id="djabber-server" class="ncb">
+<input type="radio" name="dradio" id="dmonero" class="ncb">
+<input type="radio" name="dradio" id="dbitcoin" class="ncb">
+<input type="radio" name="dradio" id="dpgp" class="ncb" data-com.bitwarden.browser.user-edited="yes">
+<input type="radio" name="dradio" id="dresources" class="ncb">
+<a class="btn btn-default btn-xs guidenav" href="http://auzbdiguv5qtp37xoma3n4xfch62duxtdiu4cfrrwbxgckipd4aktxid.onion/welcome">Home</a>
+<label for="dnews" id="bnews"><a class="btn btn-info btn-xs guidenav">News</a></label>
+<label for="dabout" id="babout"><a class="btn btn-info btn-xs guidenav">About</a></label>
+<label for="dsecurity" id="bsecurity"><a class="btn btn-info btn-xs guidenav">Security</a></label>
+<label for="dbuyer_guide" id="bbuyer_guide"><a class="btn btn-info btn-xs guidenav">Buyer Guide</a></label>
+<label for="dvendor_guide" id="bvendor_guide"><a class="btn btn-info btn-xs guidenav">Vendor Guide</a></label>
+<label for="dpayments" id="bpayments"><a class="btn btn-primary btn-xs guidenav">Payments</a></label>
+<label for="drules" id="brules"><a class="btn btn-danger btn-xs guidenav">Rules</a></label>
+<label for="dbugbounty" id="bbugbounty"><a class="btn btn-info btn-xs guidenav">Bug Bounty</a></label>
+<label for="djabber-server" id="bjabber-server"><a class="btn btn-info btn-xs guidenav">Jabber Server</a></label>
+<label for="dmonero" id="bmonero"><a class="btn btn-info btn-xs guidenav">Monero</a></label>
+<label for="dbitcoin" id="bbitcoin"><a class="btn btn-warning btn-xs guidenav">Bitcoin</a></label>
+<label for="dpgp" id="bpgp"><a class="btn btn-info btn-xs guidenav ddlink">PGP</a></label>
+<label for="dresources" id="bresources"><a class="btn btn-info btn-xs guidenav">Useful Resources</a></label>
+<div class="panel panel-info" id="news">
+<div class="panel-heading text-center">
+<span class="badge"> News </span>
+</div>
+<div class="panel-body infobody">
+<h3 id="02242020">Six months in business, almost 100% uptime, 60.000 users and some changes</h3>
+<pre class="newssigned text-left">-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+
+* We have reached 6 months (with almost 100% uptime) and 60.000 users!
+
+* Users can now change their PGP keys by themselves. Access to old key is required
+before changes. Back up your PGP key and do not lose it. Treat it with the same
+respect you treat your cryptocurrency wallets (or real wallets for that matter).
+Except under very special circumstances if you lose access to your PGP key you lose
+access to your account. If your key expired you won't be able to log in, however
+you can contact us, sign a message with your old key and we will restore access.
+
+Speaking of PGP: STOP using Igolder! You are basically GIVING your address to a
+third party. If you don't care about that maybe you care about the fact that some
+vendors cannot decrypt Igolder messages. Use a modern PGP client, most of them are
+point and click.
+
+* Order payment window has been increased to 120 minutes (two hours). That is more
+then enough to make a payment. Payments received after the order is canceled may be
+lost, so if paying by Bitcoin make sure you use a decent transaction fee. Stop paying
+your orders from online wallets / exchanges. Send the coin to your local wallet first
+because paying from online wallets / exchanges:
+- - Is dangerous for your privacy.
+- - Some of them add extra verification/delays and you won't make the 2 hour window.
+- - Some use a ridiculously low transaction fee and the transaction will be delayed.
+Transfer to your local wallet first and don't be cheap on the transaction fee. Late
+payments create unnecessary support work and you may lose your coins.
+
+* Order history and messages are now deleted after 45 days instead of 30.
+
+* Users can edit feedbacks for 30 days after an order is finalized (escrow released).
+
+* Added "Top 20 Vendors" based on number of sales and feedback.
+
+* Added random sort to "Search".
+
+* On "Your orders" page we added the exact time when the auto finalize can be extended
+or the order can be disputed. On the order tab you will find a yellow box showing the
+exact date and time when Dispute and Extend AF buttons will be available. 
+Eg: "You can dispute/extend AF between 2020-02-28 18:44:51 and 2020-02-29 18:44:51 (UTC)"
+
+* Added two new V3 mirrors:
+3ffonw4wo7npl2rxld5dlhskesekyermcyickdtaa3ca3quindctnfqd.onion
+flkzk2qjqe2yo5etsb7klxjihgrj7bi54k3iscccvkk7xbkif6x5etad.onion
+
+* Bug fixes and stability improvements.
+
+Thank you all for your business and support!
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEc4TySQeVvYawDu/c067gT8TGAH4FAl5T/M0ACgkQ067gT8TG
+AH7Q4Q//S96bQVyKkt7eU+G5FLpASCBuV0DZPP+7+AhD5fietJaghfpDBuNfsgJ4
+Tex5Fv4jEw7XyLuYtaYqLUC5U1G4wYIKIpNlkwlaZHpK4kxwCmBpf4KIGeeJ21On
+G/fGSYqL1SUGjlHgkMfnfHKQJeZ1mM2JICtNAE8PNnbwAJtocJRgcuSeibrTjYnF
+1/v1mDQ9eC4WPmJIdTtCcBGeawO+2jxENfh/XctxK+guMEAfMiZKWHPC84H1qPaH
+ixsB0qccMDOyko4glu2r/NcSkt3+w3P6nVpJjp+/GCSMCNUVgT5ypYSSJ2JQyhxF
++1T02kDZAq+6yGVNDA1XDo55pY2thcAoWKtBGNvL4py2XBssxqZDzxKl/DSwCI8l
+irgwr1BEIvbS446ZFMiDclqfrgzobPxCdOD36xa2EjdzZzMBbJ3oLK8VkTBfuE57
+Y+ldnE/NEP+1vbcnaFRDWlggQP7YaONHdpZ/yVuFMO2+SeT3QzgzVZhAXksMgfu6
+LBly7BCa0QaUg6ilNZ0ajOZCY/LWMj4huqLLlu3DVEAse3oEvL76N0vNy8ku4hkw
+ReN6owXJ+GBdRew0oAglljjMcJbFDlbHBLuKz9ssEzJW+skPBjIfgWXlmz+sWx9X
+CTRQe6u65Hsk8RrIViyK/3Orqn7vAiJQ9qBDz4KGcRRsMfhGJeI=
+=uo5S
+-----END PGP SIGNATURE-----
+     </pre>
+<h3 id="12212019">Some minor changes December 21 2019</h3>
+<pre class="newssigned text-left">-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+* Added won/lost disputes to vendor stats.
+
+* Added number of sales to vendor stats. Those are a bit obfuscated
+and are shown as 0-10, 10-20, 20-30 and so on, because some vendors
+don't want their exact sales numbers made public.
+Note: This feature has been introduced recently. Since we don't keep
+order records for too long, some vendors may show lower sales numbers
+then real ones. Orders older then ~ 40 days will not be added.
+
+* All vendor reviews are now visible. Number of reviews does not equal
+the number of sales so that shouldn't be a problem for vendors.
+
+* Changed customer stats on the Login page: "Active" customers are the
+ones who added a PGP key to their account, "All" are the ones who
+registered (PGP ones included). We decided to allow customers without
+a PGP key to browse listings, but nothing more. Maybe they find something
+they like and decide to learn PGP. We also stopped deleting them.
+
+* Details on how long we keep some data:
+
+- - - Pending orders canceled for non-payment: deleted after 5 days. 
+- - - Finished orders (canceled, canceled by staff, finalized): deleted after
+15 days.
+- - - Vendor sales records under "Your Earnings" page: deleted after 30 days.
+- - - Messages (all of them, old or new): deleted after 30 days.
+- - - Withdrawals and refund records: deleted after 30 days.
+Note: For users who decide to remove their account, everything is deleted
+immediately or their user name replaced by "[deleted user]".
+
+* Added direct links for vendor info and vendor listings:
+Vendor info: http://anymarketlink/vendor/vendorname
+Vendor listings: http://anymarketlink/shop/vendorname
+
+* Made some things more obvious, like order statuses.
+
+* Added more automated messages on order status changes. 
+
+* Some bug fixes here and there.
+
+* Vendors please remember: You can set the auto-finalize timer for your
+orders, and it starts at 5 days. If your FE application is denied
+you can re-apply after some successful orders, and you won't have money
+locked in escrow for too long. Your AF time is a bit randomized so an
+adversary won't know exactly when you were online and marked the order
+as "Complete". 
+
+* Customers please remember: You can extend the AF timer or open a
+dispute 24 hours before the timer expires. The timezone is UTC.
+If you care about your orders keep an eye on them, don't let the 
+timer expire and don't finalize your orders until you receive your
+product. Also keep in mind some vendors don't work on weekends and
+given this particular time of the year delays are to be expected. Before
+opening a dispute try to sort it out with your vendor first.
+
+* It has been brought to our attention that there are some phishing pages
+impersonating us, thanks darknetlive for pointing that out. Check our
+PGP key from multiple sources, check our signed canary / mirror list and 
+if you are too lazy to check PGP signatures at least make sure your links
+are from valid sources. As of now the only trusted sources for legit 
+mirrors are:
+
+ - Darknetlive: darknetlive.com / darknet7rl4epe24.onion
+ - Dark dot Fail: dark.fail / darkfailllnkf4vf.onion
+ - Our Dread sub: dreadditevelidot.onion/d/WhiteHouseMarket
+ - Our Envoy sub: envoys5appps3bin.onion/index.php?board=136.0
+(Sources are not listed in a particular order)
+If you do get phished and you lose your money, there's nothing we can do
+about it, so mirror checking is important.
+
+* We will be working on holidays too, so if you need us we will be
+around.
+
+* Happy Holidays, Merry Christmas and a Happy New Year to everybody!
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEc4TySQeVvYawDu/c067gT8TGAH4FAl3+SlIACgkQ067gT8TG
+AH5SQxAApeBAoy2f6iFROHzckMtFat4X7hcvtSIZyMDtj5gEmJP2eem00LjVIroH
+z2mr7e3wQ6ujewwHfUbY7uZRVda+ZDizdztJNqIhrVBPJ5YFJ383a2BXpgBmYSAT
+E53KJNlxheNhCu8JZvZHqoy+uMj4KHO5pZR765L1wCqF/fmF0RuXvL4iJ2zoCf0L
+e2nwFvbITM5r+2Q3nN7TaQ7IP9LsIyU5FdI8GvH8z2HgOrvLuCfWhH0gCgQ0cfBQ
+V2A9pNwLbi7bwqkaoSVFWg0x9LSjrhy4oDp1pIyHLgPAF5C2c6sIIkpsvw4s2eW3
+FQl3VvHNh7G1ZYuA2V3v2DQsZMNf70uMqgO8VlZcF38+jA2IbpjQB2iJbe+4Oo+0
+oDOZ8tTQomXI9u0ObUO76cjujBH2dA95e+u6zCtnn6knDFs6RLEtc5vpVVUBq9mW
+KjfDbqg026T48pXkIKvZGylD7C+l+LIuhUlXHZwdUCDU3U4YaQYxiJnpuHNnyM1o
++E/E1JJruGdVYvQfB0p8cc8DZkFq4948SY2jzZC6dhFchvVJuYi/WJGxf12YE/8d
+lW6VQOGvUyCUHsLm37rruUJlbQnu7zWVujBj6IdiTkm/HflrkhBP2K36k+8UbmKQ
+ljrpQXFJxfoQoTxAQ+P+FqCdPz6E8y/KHbgmdRi5nVLRfQD8/WM=
+=0Fu5
+-----END PGP SIGNATURE-----
+
+     </pre>
+<h3 id="12142019">Changelog December 14 2019</h3>
+<pre class="newssigned text-left">
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+* Added GBP, AUD and CAD. On the Gallery page prices will be displayed in all
+supported fiat currencies.
+
+* Added QR code on the payment page.
+
+* Added email alerts. Only .onion addresses are accepted. Alerts are PGP
+encrypted and everything works the same way as jabber alerts.
+
+* Added animated PGP guides for several operating systems and clients.
+
+* Receiver's PGP key name and email are shown on the send message/reply page. It will
+make key lookup easier.
+
+* Bug fixes, UI and backend improvements. UI is now more mobile friendly for users
+who insist on accessing DNMs from mobile devices.
+
+* Increased the order payment window to 90 minutes.
+
+* Reached ~ 13500 users: ~1000 vendors, ~12500 buyers (~7000 added their PGP keys) and
+~3800 active listings.
+
+
+Only for buyers:
+
+Since many buyers, against all recommendations, pay for their orders via exchanges
+anyway, we thought of making things easier for you. Now you can pay for your orders
+by Bitcoin, using a 3rd party exchange service.
+
+Please keep this in mind:
+
+* Bitcoin payments are processed via a 3rd party exchange service. We do not have
+a BTC wallet and we are still XMR only. The order flow is: 
+  1. You place your order and you get to the payment page.
+  2. You will be given the option to pay by Bitcoin.
+  3. If you choose to, you will be taken to an Exchange page.
+  4. You send BTC to the exchange.
+  5. The exchange sends XMR to your order address.
+  6. Once everything is confirmed, your order is sent to vendor and the
+difference refunded.
+
+* This option is highly experimental, support for it is limited, may be
+buggy and may be removed in the future. 
+
+* You will be introducing a 3rd party into your transaction (the exchange). 
+The exchange will know the BTC origin and the XMR destination. 
+
+* This will be more expensive, as the exchange fees and rate fluctuation
+need to be covered. The extra amount will be refunded either to
+your XMR refund address or to your market wallet.
+
+* Refunds are only sent out via XMR. We don't have a BTC wallet. So you will need
+to learn how to use XMR, eventually.
+
+* Use a decent Bitcoin transaction fee. Everything has to happen within
+1 hour. If you send the payment too late your coins can be recovered but
+you may lose money due to rate fluctuation.
+
+* Save your exchange ID until your transaction is complete. If things go
+wrong you may need it.
+
+* Keep an eye on your pending order until it shows a status change (canceled,
+refunded, sent to vendor). If the payment is sent too late and you contact
+us within a reasonable amount of time, we can help you. If you contact us
+more then 5 days later we can't help you, as we don't keep records
+for too long. 90 minutes is more then enough for a payment to be sent,
+and how you manage your payment is your responsibility.
+
+* Bitcoin payments are not under our control. If we do get the XMR for
+your order we can help you, otherwise we can't.
+
+* Learn how to use Monero.
+
+This option has no effect on vendor accounts.
+
+Thank you for your business and Happy Holidays to everybody!
+
+
+Bitcoin block hash:
+0000000000000000000969948b1d181f71e38a6412f7446d0eddb4b681cd2d0f
+2019-12-14 15:24:14 UTC
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEc4TySQeVvYawDu/c067gT8TGAH4FAl31A8IACgkQ067gT8TG
+AH6SVBAAhpZSaSNJ1hVcddQiZwTIPjH8XFt8s2/mCHziNVCj+nzL1NDK6pG5P5Ih
+FPrwoGknACuZVQzcTPOU2APsLO6MgLA7jK5k4oD16CRytszenWRh1wXirYygG8pZ
+yiY+soiLusucBuERcVQfuy9oH5MSN9/YUeaE8ggkGa5tSZUcVSZmLOX0554fcJER
+vTQjKYxk1GxXmMd5j37AvtbviIHmozK5uXfvxk89Ubsh/YeC5/s3SLhCAZW4QyHl
+knuX2hOVjYGnzeGsIdn3f5TDlZz7U1vSGP939AhFqABP3ivBOtYlrwBqZ/MNi43Q
+VUE2fLI9paq2+2/cIJ00mFWCyryKGcvtThokudT+JiaVxOD7kXnPXCMqgOv5sdyA
+qPTNDD+c4CQzCeprCi/opBHV+EP90qmqUa/njQz1GIThWfLxF6Wcts4j9MGtAAQj
+ha5PDQGriw+sl3gAvFPbcUATyPJDBVDIwyIWu7VJMsWBzzwh9F5cHVgvkRWrVD4H
+ip7LCbG1OxKdoSqToYoW7Bwtaaocsrmi5yX+MgOZLC3tFS3GMBsuV0m/G2wqzL+9
+mGUND2Y5XjxM+oUhicEQGnOD6WlfhpCYyP+yR+7as0WnyyTTrMccaoAnFPRNvDz1
+7wyTYHMNEXGnlrwAsIAomszs1I+Cs7kX8mX58E8neh82ljJ0l14=
+=eOCP
+-----END PGP SIGNATURE-----
+
+
+
+     </pre>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="about">
+<div class="panel-heading text-center">
+<span class="badge"> About / Features </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+<li><b>If you are an established vendor on another market and you can 
+prove who you are we will give you the same user name (even if someone 
+else already registered it)
+and we will port your feedback. We will also suspend any user trying to 
+steal a known vendor's moniker/reputation.</b></li>
+<li>Javascript warning: Javascript must be disabled in order to access 
+this market (and for any dark net activities). If you have Javascript 
+enabled, a warning will be
+shown and you won't be able to proceed. Javascript should be disabled 
+browser wide. If you use the "NoScript" plugin the Javascript error my 
+be shown for a short time
+until the plugin kicks in. This is normal and it should not be a 
+concern, however we strongly recommend disabling Javascript browser 
+wide:<br>
+- Type "about:config" in your Tor browser address bar.<br>
+- Search for "javascript.enabled".<br>
+- Set it to "false".<br>
+</li>
+<li>Our goal is to create a simple user experience while maintaining a high level of security and anonymity. </li>
+<li>Everything is written from scratch. No public market script.</li>
+<li>Simple, intuitive design without unnecessary bells and whistles.</li>
+<li>Bug Bounty program.</li>
+<li>Fast customer service. If we get overloaded, we will suspend 
+registration until we get more moderators or until we clear our backlog.</li>
+<li>The official language is English. We may also offer limited support in other languages.</li>
+<li>Both Tor and I2P mirrors.</li>
+<li>No withdrawal limits, except if the amount is lower then the network
+ fee. In that case the withdrawal will be returned to your wallet.</li>
+<li>5% fee for vendors, no fee for buyers. This is a flat fee for 
+finalized orders only. No hidden fees, no deposit fees, no withdrawal 
+fees. For high volume vendors, fee can be negotiated.</li>
+<li>Vendors and us only operate using Monero, as Bitcoin lacks the 
+required privacy and some users don't know how or neglect cleaning their
+ coins. However customers can pay by bitcoin via a 3rd
+party exchange service.</li>
+<li>Listing prices are in USD,EUR,GBP,AUD and CAD the exchange is 
+calculated when ordering. XMR to fiat rates are updated periodically.</li>
+<li>Up to 4 pictures per listing, up to 5M picture size, JPEG only.</li>
+<li>Up to 15000 characters per listing description.</li>
+<li>Private listings. Can be used for custom orders/discounts to specific buyers.</li>
+<li>Quick listing clone/duplicate.</li>
+<li>Idle timeout selected at login.</li>
+<li>Detailed logging of failed sign in attempts. You will be able to see
+ of someone tried to sign in to your account and what credentials were 
+wrong (password or 2fa). Logs are kept for limited time.</li>
+<li>Simple image-based captcha, very easy to solve for humans yet hard for bots.<br>
+<i>Clarification: Our captcha doesn't have anything to do with Google's 
+re-captcha, except maybe for the idea of using image recognition instead
+ of "traditional" captchas. It does not have
+any scripts of fingerprinting mechanisms whatsoever, it is plain 
+html/css. This can be easily audited. Google's re-captcha wouldn't work 
+without javascript anyway.</i></li>
+<li>Vacation mode for vendors.</li>
+<li>Vendor selectable auto-finalize time (5-45 days).</li>
+<li>Partial refunds, can be issued by vendor or by admins in case of a dispute.</li>
+<li>PGP signed mirror list / market statement / canary with proof of freshness, updated at least once every 72 hours.</li>
+<li>Deposit addresses are PGP encrypted and signed to deter MITM phishing.</li>
+<li>Configurable, PGP encrypted jabber/xmpp notifications, for both vendors and buyers.</li>
+<li>Configurable, PGP encrypted email notifications, for both vendors and buyers.</li>
+<li>Private jabber server.</li>
+<li>For now we only support escrow. We may add multisig if enough users request it.</li>
+<li>Except for some generic administration messages, no plaintext 
+communication is allowed. You will not be able to use this market 
+without a PGP key.</li>
+<li>PGP challenge-response two factor authentication.</li>
+<li>Extra 2fa step for critical pages.</li>
+<li>All messages are truly end to end encrypted, so are the attached 
+files. Nobody except the sender and the receiver will have access to 
+your communication, not even us.
+At the time of this writing we are the only market enforcing end to end 
+encryption.<br><br></li>
+<li><b>Important:</b> While our system allows exchange of encrypted files, pay special attention when receiving an attachment, <i>especially</i>
+ if you never expected one! Verify the file and NEVER blindly
+click/open everything you receive! This is also valid for random links! 
+Getting your device compromised invalidates every security measure, 
+yours and ours. If you receive
+any unsolicited attachment or link, do not touch it and report it 
+immediately !<br><br></li>
+<li>We assume that any server can be hacked or seized eventually, so we don't want to keep more data our servers then we need to.</li>
+<li>What is kept in plaintext:</li>
+<ul>
+<li>Listing information (title, description, pictures, price, shipping).</li>
+<li>User names.</li>
+<li>Sign in logs (for limited time).</li>
+<li>Limited order information history, including vendor, buyer, order totals.</li>
+<li>Limited feedback information.</li>
+<li>Monero deposit and withdrawal addresses (for limited time).</li>
+<li>Generic admin messages (for limited time).</li>
+<li>Message subjects (both between users and support tickets,for limited time).</li>
+<li>Public PGP keys.</li>
+<li>Jabber/XMPP addresses used for notifications.</li>
+<li>Email addresses used for notifications.</li>
+</ul>
+<li>What is kept encrypted:</li>
+<ul>
+<li>Messages between users (end to end encrypted, kept for a limited time).</li>
+<li>Messages between users and admins (end to end encrypted, kept for a limited time).</li>
+<li>Support tickets (end to end encrypted, kept for a limited time).</li>
+<li>Message attachments (end to end encrypted, kept for a limited time).</li>
+<li>Order details (shipping / delivery info or notes, kept for a limited time).</li>
+<li>User passwords.</li>
+</ul>
+<li>If a user decides to close his account, all information related to that specific user/account will be purged.</li>
+<li>No PGP private keys are kept on the servers.</li>
+<li>No Monero private keys are kept on the servers.</li>
+<li>Main wallet is only kept offline. Because of this, we verify/process
+ all withdrawals in batches, within 24 hours, usually much faster.</li>
+<li>We take periodic backups of databases, including wallets, orders, attached files.</li>
+<li>Those measure ensure that even in the event our servers are compromised/seized:
+<ul>
+<li>No plaintext messages will be recovered.</li>
+<li>No coins will be seized.</li>
+<li>The attacker can only view the wallet balance, but he will not be able to transfer any funds.</li>
+<li>We can be up and running in no time, and no order information will be lost.</li>
+</ul>
+</li>
+<li><b>For active, high volume users (both vendors and buyers):</b>
+<ul>
+<li>We will give you a dedicated, authenticated .onion domain.</li>
+<li>This way, if our public mirrors are getting DDOS-ed, you will still be able to access your account and do business.</li>
+<li>We are also considering giving dedicated, authenticated domains to 
+every active user (any user that has made at least a deposit or sale), 
+this way a determined DDOS-er
+will not disturb our business, at least not too much.</li>
+</ul>
+</li>
+<li>Messages will be deleted after 45 days (unread messages included).</li>
+<li>Sent messages are not saved. If you need them, you need to save them locally.</li>
+<li>Time zone is UTC, 24 hour time format.</li>
+<li>If you want a specific feature implemented, please feel free to 
+contact us. We are always open to good ideas as long as they don't lower
+ out security standards.</li>
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="security">
+<div class="panel-heading text-center">
+<span class="badge"> Security Considerations </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+While we go to great lengths trying to protect our users and ourselves, please keep in mind:<br><br>
+<li>Learn how to use PGP and especially how to protect your private 
+keys! While PGP is widely used for encryption and signing, it has a few 
+limitations:</li>
+<ul>
+<li>It is difficult to use. We provide a limited tutorial but we won't 
+cover every OS / OS version in existence. There are lots of tutorials 
+online. </li>
+<li>It has some nasty denial or service vulnerabilities 
+(https://gist.github.com/rjhansen/67ab921ffb4084c865b3618d6955275f), 
+importing a wrong key can wipe out your keyring or worse.
+Do not import keys from public keyservers and backup your keyring often!
+ </li>
+<li>It does not support PFS (Perfect Forwarding Secrecy). Meaning if 
+someone steals your private key, every message you ever received can be 
+decrypted!</li>
+<li>In the long run we plan on replacing PGP with something better and easier to use.</li>
+<li>Protect your keys!</li>
+</ul>
+<li>Protect your OS. We recommend against using the same computer / OS 
+for both darknet activity and clearnet stuff. In fact we recommend using
+ Tails from a bootable USB stick
+with persistent storage for storing your keys/wallets or for more 
+advanced users something like Whonix with Qubes. If that is not 
+possible/practical at least use an up to date OS, not used
+for anything else.</li>
+<li>Use full disk encryption! Never access any market before encrypting your whole disk!</li>
+<li>If accessing a darknet market from an Android device, make sure that:</li>
+<ul>
+<li>The device is supported and is running the latest Android version (Android 10 at the time of this writing)</li>
+<li>Your device has the latest security patches.</li>
+<li>You run Tor browser and OpenKeychain (for PGP) in an isolated profile, separated from everything else.</li>
+<li>Only use an Android device if you know what you are doing!</li>
+</ul>
+<li>Mind your OPSEC both online and while sending/receiving packages. 
+Handwriting can be analyzed and attributed to a person, some printers 
+use microdots that can identify a specific printer.
+You can find a lot of information about privacy and OPSEC while 
+searching online.</li>
+<li>Do not keep Monero (or other currency) in custodial wallets like Coinbase. If you do not control your private keys, it's not <i>your</i> coin. Coinbase was given as an example,
+every custodial wallet / exchanger is the same.</li>
+<li>Do not keep any shipping information for longer then you have to, 
+including but not limited to addresses / envelopes / packages / shipping
+ labels.</li>
+<li>If a tracking number is provided, do not track the package using 
+your home internet connection or your phone, because if the shipment 
+gets intercepted you will lose plausible deniability.</li>
+<li>Do not reuse usernames/passwords/PGP keys over multiple darknet 
+markets. While for vendors wanting to maintain their reputation this 
+could be difficult, it shouldn't be a problem for buyers.</li>
+<li>Under any circumstances do not use on darknet any username / 
+nickname / moniker / password / PGP key that you may use or may have 
+used on the clearnet or in real life, not even something
+similar! It's the fastest way to get caught!</li><br>
+Those details are beyond our control, and they are solely your responsibility.
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="jabber-server">
+<div class="panel-heading text-center">
+<span class="badge"> Jabber Server </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+We have added a private jabber server for market users. The server is 
+only reachable via Tor and s2s is not enabled, so you can only 
+communicate to other market users and market admins.
+End to end enncryption is enforced,
+so please use either OMEMO (recommended), OTR or PGP encryption. 
+Plaintext communication is forbidden.
+When you register and add your PGP key, a jabber user is automatically 
+created for you. To activate your jabber user, go to your account and 
+click "Change jabber password". You can choose
+any password you want, but we strongly recommend using different 
+passwords for different tasks. You do not have to use your jabber 
+account if you do not want to, but jabber alerts to outside
+servers will be phased out for both security and usability issues.<br><br>
+Connection details:<br>
+- Jabber id: dickyjohnson@whitehouvwq2xssf.onion<br>
+- Password: The password chosen at the previous step.<br>
+- Servers:<br>
+TOR:<br>
+3ffonw4wo7npl2rxld5dlhskesekyermcyickdtaa3ca3quindctnfqd.onion<br>
+flkzk2qjqe2yo5etsb7klxjihgrj7bi54k3iscccvkk7xbkif6x5etad.onion<br>
+auzbdiguv5qtp37xoma3n4xfch62duxtdiu4cfrrwbxgckipd4aktxid.onion<br>
+7yipwxdv5cfdjfpjztiz7sv2jlzzjuepmxy4mtlvuaojejwhg3zhliqd.onion<br>
+cieprrpdgp7moka2ktlwy54ooymtgsre23enrf4dfzssap74zz45f6id.onion<br>
+zefmozbmelwjc4elhoim2q3t3y4z3yoodczvqagtquvwzhx763f4jtyd.onion<br>
+I2P:<br>
+eeej5nynwa5pe4slg6ny66l2rck37m2rtaglair53cff56xmssaq.b32.i2p<br>
+q3cyf7fa6hwf5jex5e6h6jsewvloc4znovwbjolna2lp2x3kpjea.b32.i2p<br>
+- Port: 5222<br>
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="monero">
+<div class="panel-heading text-center">
+<span class="badge"> Monero </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+While customers can pay by Bitcoin if they choose to, our market only 
+handles Monero. This is not a complete Monero user guide but merely some
+ recommendations for new users.<br>
+- We strongly advise against sending coin from an exchange to the market
+ or using an exchange address for refunds as this is a serious opsec 
+error,
+it may not work or you may lose your coin. Some exchanges add a payment 
+ID to their address and this is not supported. <br>
+- We strongly advise against using a web or online wallet. Only use 
+local wallets to store your coins. Remember, if you don't control the 
+private keys,
+it's not your coin. Web wallets may decide to lock your account, request
+ KYCs or simply decide to steal your money. This applies to every 
+cryptocurrency not just
+to Monero. So again: use a local wallet.<br>
+- Save your recovery details in a safe place, in a scrambled / encrypted
+ format. If something goes wrong (disk crashes or similar) you can 
+restore your
+wallet and recover your coin.<br><br>
+- Recommended wallets:<br><br>
+<li>Linux, Windows, Mac: The official Monero client from https://web.getmonero.org/downloads/ (clearnet link).</li>
+<li>Android: Monerujo from https://github.com/m2049r/xmrwallet, https://www.monerujo.io (clearnet links), also available on FDroid.</li>
+<li>IOS: Cake Wallet from https://cakewallet.io/ (clearnet link)</li>
+<small>We advise against using a mobile phone/tablet for dark net 
+activities if you don't really know what you are doing. Unless properly 
+secured
+mobile devices are a security and privacy nightmare.</small><br><br>
+- Monero exchanges:<br><br>
+Peer-to-peer:
+<li>http://localmonerogt7be.onion/nojs (.onion) [No JS]</li>
+<li>https://bisq.io/ (clearnet) </li>
+<li>https://moneroforcash.com (clearnet) [No JS]</li>
+<li>https://localxmr.to/ (clearnet)</li>
+<br>
+Changers:
+<li>https://morphtoken.com [Requires Javascript*] *can be used without 
+JS with morphscript (http://xmrguide42y34onq.onion/scripts/morphscript)</li>
+<li>https://godex.io (clearnet) [Requires Javascript]</li>
+<li>https://flyp.me (clearnet) [Requires Javascript]</li>
+<li>https://changenow.io (clearnet) [Requires Javascript]</li>
+<small>Note 1: Those were taken from http://dreadditevelidot.onion/d/Monero<br>
+Note 2: While we don't recommend using any exchange requiring KYC, if 
+you send your XMR to your local wallet first you should be ok.</small>
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="bugbounty">
+<div class="panel-heading text-center">
+<span class="badge"> Bug Bounty </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+We encourage skilled pen testers to, well, pen test our market. 
+Depending on how serious a bug is, your work will be compensated. While 
+you won't be able to steal any money or sensitive
+information (wallets are kept offline and communication is mandatory end
+ to end encrypted) responsible disclosure will spare us some 
+embarrassment. We treat all bugs seriously, both related
+to functionality and security. We agree no software is perfect and there
+ is a probability we screwed up something somewhere.<br>
+Please keep in mind:<br>
+- Missing features are not considered bugs, but we are open about that too.<br>
+- Denial of service attacks against the Tor network are not considered bugs either.<br>
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-danger" id="rules">
+<div class="panel-heading text-center">
+<span class="badge"> Rules </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<li><b>Rules for buyers:</b>
+<ul class="text-justify">
+<ul>
+<li>Do not try to scam vendors.</li>
+<li>Do not use the messaging system to send unsolicited links or attachments.</li>
+<li>Read the listing carefully and pay attention to the listing's terms 
+and conditions. If something is not clear, contact the vendor before 
+ordering.</li>
+<li>When it comes to physical items, check the vendor's delivery time 
+frame, and communicate with the vendor before opening a dispute. Most 
+vendors will resolve their issues without getting
+support involved.</li>
+<li>While we are confident that most vendors are honest and just want to
+ make a living, there will always be some bad apples. In this case, you 
+can open a dispute.</li>
+<li>You should start a dispute if:
+<ul>
+<li>vendor accepts an order and then does not deliver within the advertised time frame, does not answer, etc.</li>
+<li>For physical items, if the item is not received, is substantially different from the listing or it is incomplete and/or damaged.</li>
+<li>For digital items, if the item does not match the description or the
+ listing is misleading. We do approve all listings manually, however 
+some bad ones may slip.</li>
+</ul>
+</li>
+<li>You should NOT start a dispute if:
+<ul>
+<li>The quality of the product does not match your expectations (subjectively).</li>
+<li>You do not know how to use the purchased product (either physical or digital).</li>
+<li>The digital product you bought does not work <i>for you</i>.</li>
+<li>You reason for dispute is in contradiction with listing's terms and conditions.</li>
+</ul>
+</li>
+<li>Do not release money from escrow until you received your product 
+(physical or digital)! We do not recommend "finalize early". If you have
+ traded with the vendor before you can do what
+ever you want, <i>on your own risk</i>. By hitting the "Release" button you lose the right to a dispute, so think before you click. You have been warned.</li>
+<li>Don't be an asshole.</li>
+</ul>
+
+</ul>
+<ul>
+<li><b>Rules for vendors:</b>
+<ul class="text-justify">
+<li>Do not try to scam buyers.</li>
+<li>Do not use the messaging system to send unsolicited links or attachments.</li>
+<li>Unacceptable listings:
+<ul>
+<li>No child or animal pornography.</li>
+<li>No murder for hire.</li>
+<li>No human or animal exploitation/abuse.</li>
+<li>No terrorism related products, services or propaganda.</li>
+<li>No weapons (less-then-lethal weapons included), explosives or poisons.</li>
+<li>No tutorials, no "get rich quick" schemes. Most of those are low 
+effort and have no real value. We do not even have a "tutorials" 
+category, however if you have something
+great that may impress us we <i>may</i> make exceptions.</li>
+<li>No Fentanyl or similar substances.</li>
+<li>No transfers (Pay $300 get $1000 via Western Union) kind of stuff.</li>
+<li>Nothing that our administrators can consider unacceptable, at our own discretion.</li>
+</ul>
+</li>
+<li>Acceptable listings:
+<ul>
+<li>Almost anything else.</li>
+</ul>
+</li>
+<li>All new and some modified listings go to moderation. We may reject a listing with or without an explanation.</li>
+<li>Do not keep in your wallet more coins then you need, we don't want 
+to hold your money for more time then we have to. There are no limits on
+ withdrawals.</li>
+<li>Describe your product as accurately as possible. Misleading listings are not accepted.</li>
+<li>Emoticons, html tags, unicode or weird characters are not accepted neither in title nor in description.</li>
+<li>No external links or contact information in your listing description
+ or profile. Ignoring this rule will get your account permanently or 
+temporarily banned. No wickr, no jabber, no email, no links.</li>
+<li>Add your Terms and Conditions, Refund/Reship Policy either to your 
+profile or your listings. Different listings/products may have different
+ policies.</li>
+<li>If adding a photo to your listing, make sure that's a photo of <i>your product</i>. You can put a paper note next to your product when taking the photo, stating your username,
+but be careful as handwriting can be used to identify you and some printers add microdots.</li>
+<li>Before you add a picture, make sure you strip the EXIF data as it 
+can include information about camera and even location information. Both
+ phones and cameras do it, so this is important.</li>
+<li>Process your orders in a timely manner, and try to respect the advertised delivery deadline.</li>
+<li>Keep the buyer informed every step of the way.</li>
+<li>When selecting "auto-finalize" time, make sure it reflects your 
+estimated delivery time. As a vendor your have a pretty good idea how 
+long does it take for delivery.</li>
+<li>Before contacting support about a dispute, try to solve it with the buyer first.</li>
+<li>Breaking any of those rules will get your account temporarily or permanently banned.</li>
+<li>Don't be an asshole.</li>
+</ul>
+</li>
+</ul>
+<br>
+</li></div>
+</div>
+<div class="panel panel-info" id="buyer_guide">
+<div class="panel-heading text-center">
+<span class="badge"> Buyer Guide </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+<li>Verify <a href="http://auzbdiguv5qtp37xoma3n4xfch62duxtdiu4cfrrwbxgckipd4aktxid.onion/checksig.txt">our signed message</a> and make sure you are on the correct onion.<br></li>
+<li>If you find something you like:<br>
+- Check the listing carefully, and pay attention to listing's terms and shipping information when dealing with physical goods.<br>
+- Check the prices, including shipping. Prices are listed in fiat 
+currency, but you will pay in Monero at the current exchange rate.<br>
+- Check vendor's last activity time, rating and reviews.<br>
+- We do not offer automatic discounts at the moment, however you can 
+contact the vendor and ask for a custom listing if he agrees to a 
+discount.<br>
+- View and import vendor's PGP public key.<br>
+- Select desired quantity and shipping method.<br>
+- If you do not add a refund address and you do get a refund, it will be
+ deposited into your market wallet. You can use those funds as a total 
+or partial
+payment for future orders or you can withdraw.<br>
+- Write a short message to the vendor. Messages have to be locally encrypted (and preferably signed) before sending.<br>
+- After hitting "Place Order" you will be shown an Order Status page. 
+There you will find a Monero address unique to this order. The address 
+is encrypted and signed. If you have
+money in your market wallet it will be used for either a total or a 
+partial payment. If your balance won't cover the order you will only 
+have to send the missing amount.<br><br>
+- <b>Important</b>:
+<ul>
+<li>Send the exact order amount to that address.</li>
+<li>The payment requires at least 1 confirmation within 120 minutes. By 
+not having at least one confirmation within the 120 minute window you 
+may lose your coin.</li>
+<li>Address is unique to the order. Trying to re-use that address and you <i>will</i> lose your coin.</li>
+<li>If you place multiple orders, you need to send multiple payments to 
+multiple order addresses. Do not try to combine payments, it will not 
+work.</li>
+<li>If you send less then the required amount, the order will be cancel and a refund will be issued.</li>
+<li>If you send more then the required amount, the difference will be refunded.</li>
+<li>If, by the time the payment is confirmed, something goes wrong with 
+the listing (out of stock, vendor deleted listing) your order will be 
+canceled and you will be refunded.</li>
+<li>If you don't send any payment, your order will be canceled.</li>
+<li>The vendor will not "see" the order until payment is confirmed (10 network confirmations).</li>
+<li>Do not include a payment ID.</li>
+<li>Do not send the payment from an exchange. While that will work, it is <i>very bad for your OPSEC</i>, the amount may be different or payment may be delayed.</li>
+<li>Make sure the refund address belongs to a wallet you control. Exchange wallets or payment ids should not be used.</li>
+<li>Just like withdrawals, refunds to external addresses will be 
+processed within 24 hours, usually much faster. Refunds to market wallet
+ are instant.</li>
+</ul><br><br>
+- After you sent the payment, you can refresh the "Order Status" page for updates.<br>
+- If you log out or close the browser, you can find the order under "Your Orders" page, "Orders waiting for payment" section.<br>
+- After your payment is confirmed (10 network confirmations) your order will be sent to the vendor.<br>
+- If the vendor does not accept the order within 4 hours, you can cancel it.<br>
+- After a vendor marks the order as "Complete" <i>pay attention to auto finalize date and time</i>. You can only dispute or extend the auto-finalize time 24 hours before auto-finalize,
+so make sure you keep an eye on your orders as the exact time window for disputes / extend AF is clearly shown in the order tab.<br>
+- Before disputing an order, please observe our rules. If you lose a 
+dispute, administrators may give you a negative rating/feedback.<br>
+- Keep in mind after a dispute is opened the other party has 72 hours to
+ respond. We will not take any decision before this time is up, so 
+please do not ask us.<br>
+- Remember to finalize your order <i>after</i> receiving your product/service. Failure to finalize can get you a bad rating/review.<br>
+- While finalize-early (FE) is accepted, it is not encouraged. FE should
+ only be used if you really trust the vendor (you have traded before), 
+after you release the coin
+we cannot help you. Think before you click!<br>
+- Rate the vendor after an order, to help keeping the community safe.<br>
+- You can edit your feedback 30 days after an order is released / finalized.<br><br>
+</li></ul>
+<br>
+</div>
+</div>
+<div class="panel panel-warning" id="bitcoin">
+<div class="panel-heading text-center">
+<span class="badge"> Bitcoin Payments </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<b>Paying by Bitcoin (Dangerous)</b><br>
+<ul class="text-justify">
+<li>Bitcoin payments are processed via a 3rd party exchange service. We 
+do not have a BTC wallet and we are still XMR only. The order flow is 
+like this:<br>
+1. You place your order and you get to the payment page.<br>
+2. You will be given the option to pay by Bitcoin.<br>
+3. If you choose to, you will be taken to an Exchange page.<br>
+4. You send BTC to the exchange.<br>
+5. The exchange sends XMR to your order address.<br>
+6. Once everything is confirmed, your order is sent to vendor and the
+difference refunded.</li>
+<li>This option is highly experimental, support for it is limited, may be
+buggy and may be removed in the future.</li>
+<li>You will be introducing a 3rd party into your transaction (the exchange). The exchange
+will know the BTC origin and the XMR destination. </li>
+<li>This will be more expensive, as the exchange fees and rate fluctuation
+need to be covered. However, the extra amount will be refunded either to
+your XMR refund address or to your market wallet.</li>
+<li>Refunds are only sent out via XMR. We don't have a BTC wallet. So you will need
+to learn how to use XMR, eventually. It's not hard at all.</li>
+<li>Use a decent Bitcoin transaction fee. Everything has to happen within
+2 hours. If you send the payment too late your coins may be recovered but
+you may lose money due to rate fluctuation.</li>
+<li>Save your exchange ID until your transaction is complete. If things go
+wrong you may need it.</li>
+<li>Keep an eye on your pending order until it shows a status change (canceled,
+refunded, sent to vendor). If the payment is sent too late and you contact
+us within a reasonable amount of time, we can help you. If you contact us
+more then 5 days later we can't help you, as we don't keep records
+for too long. 120 minutes is more then enough for a payment to be sent,
+and how you manage your payment is your reposnsability.</li>
+<li>Bitcoin payments are not under our control. If we do get the XMR for
+your order we can help you, otherwise we can't.</li>
+<li>Learn how to use Monero.</li></ul><br>
+
+
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="vendor_guide">
+<div class="panel-heading text-center">
+<span class="badge"> Vendor Guide </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+<ul class="text-justify">
+<li>Verify <a href="http://auzbdiguv5qtp37xoma3n4xfch62duxtdiu4cfrrwbxgckipd4aktxid.onion/checksig.txt">our signed message</a> and make sure you are on the correct onion.<br><br></li>
+<li><b>If you are an established vendor on another market and you can 
+prove who you are we will give you the same username (even if someone 
+else already registered it)
+and we will port your feedback.</b><br><br></li>
+<li>Before becoming a vendor, please observe our rules as breaking or 
+trying to circimvent any of them will get your account either 
+temporarily or permanently restricted.<br>
+- If your account is banned for rule violation we will give you time to 
+attend pending orders, withdraw your balance and we will give you your 
+bond back.<br>
+- If your account is banned for scamming you will get nothing back.<br><br><br></li>
+<li>If you find those rules acceptable:<br>
+- Go to your account and click "Become a vendor", then fill in the vendor application. We will process it as soon as possible.<br>
+On case by case basis a $400 vendor bond may be required, payable in XMR
+ at the current exchange rate. We may waive this bond for both 
+established and new vendors, so if you believe
+we should do that let us know in the application. You will get that bond
+ back if you decide to leave or after 40 to 60 successful deals (case by
+ case basis).<br>
+- Once you are a vendor, go to your account -&gt; Manage your listings -&gt; Add new listing.<br>
+- Describe your item as accurately as possible. Include terms and 
+conditions either in your vendor profile or in the item's description.<br>
+- Do not include any off site communication methods (jabber, wickr, 
+email) netiher in the listing description nor in your profile. If you 
+want to send your contacts
+to your customer you can do that via encrypted messaging, but not via 
+public listings.<br>
+- Select shipping origin and destination, available quantities, measurement units, prices, etc.<br>
+- Fiat prices have to be integers, no cents (.99) nonsense.<br>
+- Add shipping methods. If selling digital goods/services, shipping is not required.<br>
+- If you do not login to your vendor account within 5 days and you do 
+not have notifications enabled (email or jabber) you will be set to 
+vacation mode and your listings
+deactivated.<br>
+- Add up to four pictures. Maximum picture size is 5 megabytes, the gallery thumbnail will be generated from the first image.
+For physical items, pictures are required.<br><br>
+</li>
+<li><b>Established vendors can apply for FE. To do so, log in and click "FE Application" under the user drop-down menu.</b><br>
+- Some of you may have already been approved, to see your FE status check admin messages or go to your account page.<br>
+- Not everybody will be accepted. We won't publish the exact 
+requirements for approval, however however you have to be an established
+ vendor with FE on at least one
+active market. <br>
+- Customer can still cancel the order if you do not accept it within 4 hours, and you can cancel/refuse an order.<br>
+- Since we don't have a "hot wallet", coins will still be stored in the market wallet until you withdraw.<br>
+- If there are issues with the order, refunds / reshipments are to be arranged directly with the customer.<br>
+- If you receive complaints, your FE privileges may be revoked.
+<br><br></li>
+<li>If selling digital goods, you can either send them to the buyer as a
+ message, or attach them as a file. Attachments must be encrypted with 
+the buyer's public key before sending.<br><br></li>
+<li>We do not offer automatic discounts at the moment, however you can always create custom (private) listings.<br><br></li>
+<li>We do not offer sorting by vendor's rating nor featured listings at 
+the moment, because we want to give all vendors equal opportunity to do 
+business.
+We may add an option for featured listings at some point. However buyers
+ can check a vendor's rating themselves.<br><br></li>
+<li><strong>If you receive a dispute remember to contact staff and 
+respond to that dispute. If we are not contacted within 72 hours we will
+ rule in customer's favor.</strong><br><br></li>
+<li>You can choose to either accept or cancel an order. If canceling, it's recommended to message the buyer and explain why.<br><br></li>
+<li> Please check your stock / order message / policies BEFORE accepting
+ an order or marking it as Complete / Shipped. If for any reason you 
+cannot fulfill an order (you don't ship to customer's
+country etc) cancel the order before accepting it. Asking us to cancel 
+an order you accepted will count as a lost dispute. You can access the 
+order message from within the order tab.<br><br></li>
+<li>If you do not accept an order within 4 hours, the buyer has the option to cancel.<br><br></li>
+<li>When you ship the order (or otherwise deliver it) you can mark it as complete.<br><br></li>
+<li>When marking the order "complete", you will be asked for an 
+estimated auto-finalize time between 5 and 45 days. Make sure this is as
+ close to reality as possible.<br><br></li>
+<li>To issue a partial refund, move your mouse over the "Order Total" box and click "Issue partial refund". <br><br></li>
+<li>Rate the buyer after an order, to help keeping the community safe.<br><br></li>
+<li>You can edit your feedback 30 days after an order is released / finalized.</li>
+</ul>
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="pgp">
+<div class="panel-heading text-center">
+<span class="badge"> PGP </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+<li>Our market is focused on security, so PGP is a must. PGP two factor 
+authentication is enabled site wide for vendors and on all pages
+except welcome page for buyers. We have no mnemonic, no pin and no other
+ password recovery mechanism except PGP. Back up your PGP key and do not
+ lose it. Treat it with the same
+respect you treat your cryptocurrency wallets (or real wallets for that 
+matter).
+Except under very special circumstances if you lose access to your PGP 
+key you lose
+access to your account. If your key expired you won't be able to log in,
+ however
+you can contact us, sign a message with your old key and we will restore
+ access.</li>
+<li>Do not use obsolete PGP software or services like igolder. You are basically GIVING your address to a
+third party. If you don't care about that maybe you care about the fact that some
+vendors cannot decrypt Igolder messages. Use a modern PGP client, most of them are
+point and click.</li>
+<li>To change your PGP key you will need to have access to your old key.</li>
+<li>We have some animated GIFs on relevant pages covering some PGP clients and operating systems. While
+we cannot cover all operating systems and PGP clients, there are lots of resources on that, check the "Useful Resources" tab.</li>
+</ul>
+<br>
+</div>
+</div>
+<div class="panel panel-info" id="resources">
+<div class="panel-heading text-center">
+<span class="badge"> Useful Resources </span>
+</div>
+<div class="panel-body infobody">
+<br>
+<ul class="text-justify">
+<li>
+<a href="http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/dnmbible.pdf">DNM Buyer's bible (PDF)</a>, thanks to <a href="http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/">DarknetLive</a>
+<br><small>A bit outdated but still a good place to start.</small><br><br>
+</li>
+<li>
+<a href="http://dreadditevelidot.onion/" target="_blank">Dread</a><br>
+<a href="http://dreadditevelidot.onion/d/DarknetMarketsNoobs" target="_blank">/d/DarknetMarketsNoobs</a><br>
+<a href="http://dreadditevelidot.onion/d/DarknetMarkets" target="_blank">/d/DarknetMarkets</a><br>
+<a href="http://dreadditevelidot.onion/d/OpSec" target="_blank">/d/OpSec</a><br>
+<a href="http://dreadditevelidot.onion/d/Monero" target="_blank">/d/Monero</a><br>
+<small>Besides the guides, the community can be helpful.</small><br><br>
+</li>
+<li>
+<a href="http://darkzzx4avcsuofgfez5zq75cqc4mprjvfqywo45dfcaxrwqg6qrlfid.onion/" target="_blank">Darknetlive</a><br><br>
+</li>
+<li>
+<a href="http://onionurl43am4y6l.onion/" target="_blank">OnionUrl</a><br><br>
+</li>
+<li>
+<a href="https://dark.fail/" target="_blank">Dark.Fail</a><br><br>
+</li>
+<li>
+<a href="http://reconponydonugup.onion/" target="_blank">Recon</a> <small>(Part of the Dread network.)</small><br><br>
+</li>
+<li>
+Our own forums on <a href="http://dreadditevelidot.onion/d/WhiteHouseMarket" target="_blank">Dread</a> and <a href="http://envoys5appps3bin.onion/index.php?board=136.0" target="_blank">Envoy</a><br><br>
+</li>
+<li>
+Any forum listed on dark.fail or DarknetLive.
+</li>
+</ul>
+<p class="small text-left">* Always verify links!</p>
+<br>
+</div>
+</div>
+<div class="panel panel-danger" id="payments">
+<div class="panel-heading text-center">
+<span class="badge"> Important information about payments, withdrawals and refunds</span>
+</div>
+<div class="panel-body infobody">
+<strong>Payments</strong><br><br>
+<ul class="text-justify">
+<li>
+Payment address is unique for each order. If you send twice to the same address <i>you will lose your coin</i>.
+</li>
+<li>
+Payment must be received within 120 minutes after you order (at least 1 
+network confirmation). After 120 minutes your order will be canceled. If
+ paying by Bitcoin use a decent transaction fee.
+If your payment is received later then 120 minutes make sure you contact
+ us within 5 days and we may recover your coin, otherwise there is 
+nothing we can do. <br>
+Remember: 120 minutes refers to the time we receive your payment not the
+ time you send it. Have the coin in your wallet before ordering.
+</li>
+<li>
+Do not pay your orders from online wallets / exchanges. Send the coin to your local wallet first because:<br>
+- It is dangerous for you.<br>
+- Some of them add extra verification/delays and you won't make the 2 hour window.<br>
+- Some use a ridiculously low transaction fee and the transaction will be delayed.<br>
+Transfer to your local wallet first and don't be cheap on the 
+transaction fee. Late payments create unnecessary support work and you 
+may lose your coins.<br>
+</li>
+<li>
+When contacting support about a payment include order id, transaction 
+id/hash or exchange ID if you paid by Bitcoin. We cannot help you 
+without this information and your ticket will be ignored.
+</li>
+<li>
+99% of our users have no problem following those guidelines. Disregard them and you will most likely lose your coins.
+</li>
+</ul>
+<strong>Withdrawals and refunds</strong><br><br>
+<ul class="text-justify">
+<li>
+Refunds to market wallets are instant.
+</li>
+<li>
+Withdrawals and reunds to external addresses:
+</li>
+<div class="alert alert-danger text-left"><strong>Please remember:</strong><br>We
+ do not have a hot wallet, all withdrawals are checked and processed 
+offline. This can take up to 24 hours. So if you
+don't receive your withdrawal 10 minutes after you requested it, don't 
+panic, it's just the way the system works. Sometimes withdrawals are 
+indeed processed within minutes, but that's not a rule.
+Contact support about withdrawals if: <br>- 24 hour pass and your withdrawal is still "Pending"<br>
+- Your withdrawal is "Processed" but you did not receive your coin.<br>
+Otherwise you will be just creating unnecessary support tickets that 
+won't speed things up. Up to 24 hours is the way the system works.<br>
+Thank you for understanding.</div>
+</ul>
+<br>
+</div>
+</div>
+</div>
+
+
+</body></html>

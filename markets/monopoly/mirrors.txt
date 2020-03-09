@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Look into the address bar, as long as that physical link was obtained from one of the following sources;
+
+Main LDN: http://monopolyberbucxu.onion
+
+Backup 1: https://monopoly.link
+
+Backup 2:  http://darkfailllnkf4vf.onion
+Backup 3:  http://darknet7rl4epe24.onion
+
+Backup 4: https://dark.fail
+Backup 5: https://darknetlive.com
+
+You will not be a victim of phishing. These are currently the only trusted sources to obtain links to Monopoly. To verify this signed message please obtain our PGP key from dark.fail or darknetlive.com, import it into your PGP manager and verify the signature.
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEj6Kh2ScWrV4w0yiSHVHcL/9fQaAFAl3d/4oACgkQHVHcL/9f
+QaAgwxAAk2m752gaz05xDuE3fxIhyjhB5MI3thItugkjXUFLHxs2P0rT0mUrHTNA
+jUkTVzjQT3qS3lwpGdC/Z47IrWjfLYUwChsTZ6mULmb2HnUz/OeNc5CXroIcs9NO
+aVs94j8QFotxldqzQx4PoVcQsz0vsg5Ss7JVUnS5x37iYIO3JZDkyQ2tArjtf6uu
+/guda2JfEvFTnyxaeDYQUrl2tirU4UO5sIicl4AMZajWjgJFp0sxgxlhWPEBVR3h
+P7kpmckA/RjAG8RgDtqlmgPSacz7JmO8rXS1IGVMq6xDZ6U8IERdvRoKq9QK38h/
+mPAQXHgfRQyXqwG3IYV+5+h0tLq5U01FwZvGfpNS6uvID7fv60ufelwKRQyvqvlG
+LbbiGlCixAEqD/sRL8Y4SGi8QDfTFmw7y5vTIKN9LtXbPmzS49C30rMcnKmy0C0X
+aTEo8CTpm9VK+lA+j8XFV0WeriFkTsnxPHhKTKas9b92DrLlwug9Fk2wma9ifnKW
+cMvTZdm0ckSfhi9ovLfZFcAMpUSvKYFsdnvOIJcJP3xiMWmKY8F2ECKe4uiqAB7l
+kNQZqcX9ghZ6v+2nnFfcLQZFFsHwTk+/AwinCUtPj4qJkF29ntOKYZISzY6lIzZb
+WV2YcFd+IW2O3FZgaQ08FMX09484xMlvr+laDhvk/D6Ri3Twc/k=
+=OHdA
+-----END PGP SIGNATURE-----
