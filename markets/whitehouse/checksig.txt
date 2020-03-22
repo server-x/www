@@ -1,0 +1,69 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Current time: 2020-03-22 11:52:34.323594 UTC
+News headlines:
+https://www.spiegel.de/international/index.rss
+DER SPIEGEL - International
+Fri, 20 Mar 2020 22:30:39 +0100 Germany: The Big Wave of Corona Cases Will Hit Hospitals in 10 to 14 Days
+Fri, 20 Mar 2020 20:28:49 +0100 The Global Race to Develop a Coronavirus Vaccine: "A Very Aggressive Timeline"
+Fri, 20 Mar 2020 15:36:13 +0100 Corona: "Saturday Is a Crucial Day" - Interview with Chancellor Merkel's Chief of Staff
+Fri, 20 Mar 2020 10:19:25 +0100 Corona: Germany Weighing Strict Curfews If Rules Violated over Weekend
+Thu, 19 Mar 2020 18:40:37 +0100 Geopolitics in the Corona Era: A Global Challenge Needs a Global Response
+http://feeds.reuters.com/reuters/worldnews
+Reuters: World News
+Sat, 21 Mar 2020 22:08:12 -0400 Tooth fairy in quarantine? Argentina makes exemption in coronavirus lockdown
+Sat, 21 Mar 2020 21:51:21 -0400 India starts 14-hour curfew to curb coronavirus spread
+Sat, 21 Mar 2020 21:44:52 -0400 Italy coronavirus deaths jump by almost 800, government shuts most workplaces
+Sat, 21 Mar 2020 21:36:29 -0400 Spain warns the 'worst is yet to come' as coronavirus deaths surpass 1,300
+Sat, 21 Mar 2020 21:31:57 -0400 North Korea says Trump offered virus cooperation in letter to Kim
+https://feeds.bbci.co.uk/news/world/rss.xml
+BBC News - World
+Sun, 22 Mar 2020 00:33:39 GMT Coronavirus: Lombardy region announces stricter measures
+Sun, 22 Mar 2020 11:03:10 GMT Coronavirus: Australia to close pubs, cafes and places of worship
+Sun, 22 Mar 2020 11:01:30 GMT Cigarette leads police to Florida cold case murder suspect
+Sat, 21 Mar 2020 23:18:34 GMT OneWeb increases mega-constellation to 74 satellites
+Sat, 21 Mar 2020 23:50:09 GMT German police arrest man over high-speed rail tampering
+https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+NYT > World News
+Sun, 22 Mar 2020 11:28:47 +0000 Coronavirus Live Updates: Global Alarm as the Toll Continues to Rise
+Sun, 22 Mar 2020 08:05:52 +0000 Italy, Pandemics New Epicenter, Has Lessons for the World
+Sat, 21 Mar 2020 16:37:14 +0000 Astronaut Families Stressed by Straddling 2 Worlds: China and Canada
+Sun, 22 Mar 2020 00:59:22 +0000 They Went Abroad to Study. Now They Are Stranded.
+Sun, 22 Mar 2020 01:08:32 +0000 Trump Writes to Kim Jong-un Offering Help in Virus Fight, North Korea Says
+
+Bitcoin block hash 000000000000000000061d72921f018d714a27950f63dc1ad540112345e1e475 at 2020-03-22 00:00:30 UTC
+
+Mirror list:
+
+TOR:
+3ffonw4wo7npl2rxld5dlhskesekyermcyickdtaa3ca3quindctnfqd.onion (new)
+flkzk2qjqe2yo5etsb7klxjihgrj7bi54k3iscccvkk7xbkif6x5etad.onion (new)
+auzbdiguv5qtp37xoma3n4xfch62duxtdiu4cfrrwbxgckipd4aktxid.onion
+7yipwxdv5cfdjfpjztiz7sv2jlzzjuepmxy4mtlvuaojejwhg3zhliqd.onion
+cieprrpdgp7moka2ktlwy54ooymtgsre23enrf4dfzssap74zz45f6id.onion
+zefmozbmelwjc4elhoim2q3t3y4z3yoodczvqagtquvwzhx763f4jtyd.onion
+
+I2P:
+eeej5nynwa5pe4slg6ny66l2rck37m2rtaglair53cff56xmssaq.b32.i2p
+q3cyf7fa6hwf5jex5e6h6jsewvloc4znovwbjolna2lp2x3kpjea.b32.i2p
+
+Make sure you VERIFY this message!
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEc4TySQeVvYawDu/c067gT8TGAH4FAl53UaEACgkQ067gT8TG
+AH5+Eg/9G/k5a3XaYIB7InaCR88ycB0/1xp2gEvduHmlDH4gq/M8DI8GnVxUIWLc
+hImzbVvLmmHvevCW/Wj5XlAv5C4AEdwFsNbMhXUGQ6dhpMymkEu5XPi7NPplLgKZ
+LIIEazMm+MrODwFVBZR0KU/4CYSiaewKUJh6BiBDJGbybp842G1f/3oUxVfPOoSu
+j9+0eOzduHVjs4xW9K304AAFUlM6Wb2GCQ0Dd8ifD7ZLmHhdWSVOIKoh3ahWXn/g
+AevydUhGJLcuFA2qUof7+2D+/ExnrOQxzZZh1rgoJKvbocjKB7MoksU8kjpkRwBD
+Zu95nJAMbSNh6xRrvYewOQZCYx5cyBnTahXVpD1SgWjSdSHtEV1c86YMLWdxgEgq
+orszyl+S6DtZzzvUIneno2TtcXP2mVHKmOa75v4T41YDHPgHqF9rW19fjrPq4ijq
+NJqULQOxotVCuOTYwUF676ihHVpKXKaXOsmQzDEwbEWwAQarq5dpKjkiGXsE0fbB
+7GIwltHxv+ccsdSy8hJItwojnv04+CxVAhy4uaF8yA6hXJ5YniO+qEQ+IhEwuuXD
+W+zG8wpb1NC6xkFjlVi0DWewjn99Sjl/SnmB3DnGAeeTp+Ozz5kEOL0TGg3QNjHf
+nuvpbKpzGPhJpfWE/gkRz3AQDeTJNoElFnzncIEBXd23WjKUA8E=
+=ocgX
+-----END PGP SIGNATURE-----
+
